@@ -1,0 +1,201 @@
+<?php
+	session_start();
+	if (!isset($_SESSION['Sprache'])) {
+	  $_SESSION['Sprache'] = "de";
+	}
+?>
+	
+<?php
+   if(!empty($_GET['lang'])) 
+      $_SESSION['Sprache'] = $_GET['lang']; // index.php?lang=de
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+	<?php include("./language/translate.php") ?>
+		
+	<?php 
+		$language = new language("./language/",$_SESSION['Sprache']);
+		$lang = $language->translate();
+	?>
+
+		
+		<title>Framatech GmbH Gunzenhausen</title>
+		
+		<meta http-equiv="Content-Type" 	content="text/html; charset=UTF-8" />
+		<meta http-equiv="cache-control" 	content="no-cache" />
+		<meta name="content-language" 		content="<?php echo $lang->Metadaten->content_language ?>" />
+		<meta name="author"           		content="Dip.Ing. Rudolf Trieb" />
+		<meta name="publisher"        		content="Framatech GmbH" />
+		<meta name="copyright"        		content="Framatech GmbH" />
+		<meta name="keywords"         		content="<?php echo $lang->Metadaten->keywords ?>" />
+		<meta name="description"      		content="<?php echo $lang->Metadaten->description ?>" />
+		<meta name="page-topic"       		content=" " />
+		<meta name="page-type"        		content=" " />
+		<meta name="language"         		content="<?php echo $lang->Metadaten->language ?>" />
+		<meta name="revisit"          		content="After 30 days" />
+		<meta name="robots"           		content="INDEX,FOLLOW" />
+		
+		<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen, projection"/>
+		
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+		<![endif]-->
+				
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
+		<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+
+		<?php include("./app.js.php") ?>
+		
+	</head>
+
+	<body>
+
+		<div id="page-wrap">
+					  
+			<div id="menue" style="position:relative; z-index:30; ">
+				<ul class="dropdown">
+					<li><a href="#"><?php echo $lang->Menus->Lifte ?></a>
+						<ul class="sub_menu" id="kurze_breite">
+							<li class="no_link" style="padding-left:1em"><br>* <?php echo $lang->Menus->Zum_Drehen ?>
+							
+								<ul>
+									<li><br><a href="#">* <?php echo $lang->Menus->Hubeinrichtung_500?></a></li>
+									<li><a href="#">* <?php echo $lang->Menus->Hubeinrichtung_1500?></a></li>
+									<li><a href="#">* <?php echo $lang->Menus->Hallenkraene?></a></li>
+									<li><a href="#">* <?php echo $lang->Menus->Akkulifte?></a></li>
+								</ul>								
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><?php echo $lang->Menus->Krananlagen?></a>
+						<ul class="sub_menu">
+							<li class="no_link" style="padding-left:1em"><br>* <?php echo $lang->Menus->Unsere_Lifte?>
+								<ul>
+									<li><br><a href="#">* <?php echo $lang->Menus->Ueberkranungen?></a></li>
+									<li><a href="#">* <?php echo $lang->Menus->Saeulen?></a></li>
+								</ul>
+											
+							</li>
+							
+						</ul>
+					</li>
+					<li><a href="#"><?php echo $lang->Menus->Transportstrecken?></a>
+						<ul class="sub_menu" id="kurze_breite">					
+							 <li>
+								<a href="#"><br>* <?php echo $lang->Menus->Rollen?></a>
+
+							 </li>
+							 <li>
+								<a href="#">* <?php echo $lang->Menus->Riemen?></a>
+							 </li>
+							 <li>
+								<a href="#">* <?php echo $lang->Menus->Kipptische?></a>
+							 </li>
+						</ul>
+					</li>
+					<li><a href="#"><?php echo $lang->Menus->Servicedienstleistungen?></a>
+						<ul class="sub_menu" id="kurze_breite">
+							 <li class="no_link" style="padding-left:1em"><br>* <?php echo $lang->Menus->Kransysteme?>
+								<ul class id="kurze_breite">
+									<li class="no_link" style="padding-left:1em"><br>* <?php echo $lang->Menus->Reparaturen?></li>
+									<li class="no_link" style="padding-left:1em">* <?php echo $lang->Menus->Wartung?></li>
+									<li class="no_link" style="padding-left:1em">* <?php echo $lang->Menus->Umbaumassnahmen?></li>
+								</ul> 
+							 </li>
+						</ul>
+					</li>
+					
+					<li><a href="#"><?php echo $lang->Menus->Sicherheitspruefungen?></a>
+						<ul class="sub_menu" id="kurze_breite">
+							 <li class="no_link" style="padding-left:1em"><br>* <?php echo $lang->Menus->Pruefung?></li>
+						</ul>
+					</li>
+					<li id="galerie"><a href="#"><?php echo $lang->Menus->Galerie?></a>
+					</li>				
+					<?php 
+						if ($_SESSION['Sprache']=="x") { // depend on language weather it is shown or not shown (language x doesn't exist, so this never shown )
+							echo "<li><a href='#'>".$lang->Menus->Industrielackierungen." </a>";
+							echo 	"<ul class='sub_menu' >";
+							echo 		"<li><a href='#'>".$lang->Menus->Lackierservice." </a>";
+							echo 	"<ul>";
+							echo "</li>";
+						}
+					
+					?>
+					
+					<li id="start"><a href="index.php"><?php echo $lang->Menus->Startseite?></a>
+					</li>
+					
+		
+					
+
+				</ul>
+				<!-- <a href="index.html"><img  src="./images/logo.svg" height="130" width="360" style="float:right; padding: 0;margin: 0"></a> -->
+			</div>
+				
+			<div id="content"> 				
+				<div style="color: black;min-height:650px; margin: 0em;padding: 2em; background-size: 100% 100%; background-image:url('./images/background-start.jpg')">
+					<div id="logo"></div>
+				</div> 
+				
+
+					
+			</div>
+						
+			<div id="fooder">
+				<table>
+					<tr>
+						<td>
+							<b><?php echo $lang->fooder->Anschrift?>:</b><br>
+							<?php echo $lang->fooder->Firmenname?> <br>
+							<?php echo $lang->fooder->Strasse?><br>
+							<?php echo $lang->fooder->Ort?><br>
+							<?php echo $lang->fooder->Land?>
+						</td>
+						<td> 
+							<b><?php echo $lang->fooder->Kontakt?>:</b><br>
+							<?php echo $lang->fooder->Telefon?><br>
+							<?php echo $lang->fooder->Tel_Service?><br>
+							<?php echo $lang->fooder->Email?><br>	
+							<a href="#!/kontakt" id="kontakt"><?php echo $lang->fooder->Kontakt_Formular?></a>
+						</td>
+						<td>
+							<b><?php echo $lang->fooder->Bankverbindung?>:</b><br>
+							<?php echo $lang->fooder->Bankbezeichnung?><br>
+							<?php echo $lang->fooder->WUG_GUN?><br>
+							<?php echo $lang->fooder->BLZ?><br>
+							<?php echo $lang->fooder->Konto_Nr?>
+						</td>
+						<td>
+							<b><?php echo $lang->fooder->Geschaeftsfuehrer?>:</b><br>
+							<?php echo $lang->fooder->Name?><br>
+							<?php echo $lang->fooder->Registergericht?><br>
+							<?php echo $lang->fooder->HRB?><br>
+							<?php echo $lang->fooder->Sitz?>
+						</td>
+						<td>
+							<b><?php echo $lang->fooder->Downloads?>:</b><br>
+							<?php echo $lang->fooder->AGB_Link?><br>
+							<?php echo $lang->fooder->Montagebedingungen_Link?><br>
+							<?php echo $lang->fooder->Flyer_Link?><br>
+							<?php echo $lang->fooder->Prospekt_Link?>
+						</td>
+						<td>
+							<?php echo $lang->fooder->Impressum_Link?><br>
+							<?php echo $lang->fooder->Datenschutz_Bestimmungen_Link?><br>
+						</td>
+					</tr>
+				</table>			
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

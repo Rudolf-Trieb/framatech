@@ -1,0 +1,178 @@
+{
+    "keywords": "Handlingsgerät,Leichtüberkranung,Krananlagen,Transportstrecken",
+    "Metadaten": {
+        "description": "Wir konstruieren, produzieren und montieren fr sie Maschinen, Handlingsger&auml;te und Krananlagen f&uuml;r die verschiedensten Transportaufgaben! Unser Team hat &uuml;ber 25 Jahre Erfahrung im Sondermaschinenbau, fordern Sie uns !",
+        "content_language": "de",
+        "language": "Deutsch"
+    },
+    "Actions": {
+        "Senden": "Senden"
+    },
+    "Menus": {
+        "Lifte": "   Liftsysteme   ",
+        "Zum_Drehen": "Zum Drehen, Kippen, Neigen<br>und Wenden von Blechen,<br>Flachglas, gebogenem Glas,<br>Holzplatten etc.<br>Durch Einsatz individueller <br>Greifsysteme k&ouml;nnen auch<br> beliebige andere Objekte<br>sicher bewegt werden!",
+        "Hubeinrichtung_500": "mit pneumatischer Hubeinrichtung bis 600 kg",
+        "Hubeinrichtung_1500": "mit elektrischer Hubeinrichtung bis 1500 kg",
+        "Hallenkraene": "Lifte zum Einh&auml;ngen in Hallenkr&auml;ne",
+        "Akkulifte": "Akkulifte f&uuml;r Baustelleneinsatz",
+        "Krananlagen": "Krananlagen",
+        "Unsere_Lifte": "Unsere Lifte werden fertig zum Einh&auml;ngen <br>in bestehende Krananlagen geliefert,<br>selbstverst&auml;ndlich k&ouml;nnen Sie Ihre <br>individuelle Leicht&uuml;berkranung aber <br>auch gleich mitbestellen.<br>Wir beraten sie gerne vor Ort!",
+        "Ueberkranungen": "&Uuml;berkranungen (z.B. Abus-Schienensysteme),<br>mit einer oder mehreren Doppelbr&uuml;cken,<br>optional Fahrantriebe, auf St&uuml;tzen und/oder<br>Konsolen oder von der Hallendecke <br>abgeh&auml;ngt.",
+        "Saeulen": "S&auml;ulen oder Wandschwenkkr&auml;ne mit bis zu<br>7,5 m Ausleger",
+        "Transportstrecken": "Transportstrecken",
+        "Rollen": "Rollen-/Walzen-/Stauf&ouml;rderer",
+        "Riemen": "Riemen-/Gurtf&ouml;rderer",
+        "Kipptische": "Kipptische",
+        "Servicedienstleistungen": "Servicedienstleistungen",
+        "Kransysteme": "F&uuml;r neue und bestehende<br>Kransysteme und Anlagen<br>bieten wir Ihnen:",
+        "Reparaturen": "Reparaturen und Ersatzteile",
+        "Wartung": "Wartung/Wartungsvertr&auml;ge",
+        "Umbaumassnahmen": "Umbauma&szlig;nahmen, auch Programmierungen",
+        "Sicherheitspruefungen": "Sicherheitspr&uuml;fungen",
+        "Pruefung": "Gerne f&uuml;hren wir f&uuml;r Sie die gesetzlich vorgeschriebene j&auml;hrliche Pr&uuml;fung an Kranen <br>und Hebeger&auml;ten <br>nach BGG 905/ZH 1/27 <br>(UVV-Pr&uuml;fung) durch.",
+        "Galerie": "Fotogalerie",
+        "Industrielackierungen": "Industrielackierungen",
+        "Lackierservice": "In unserer hochmodernen Lackierhalle bieten wir f&uuml;r regionale Firmen einen professionellen und preisg&uuml;nstigen Lackierservice f&uuml;r Metallkonstruktionen bis 14 Meter L&auml;nge",
+        "Startseite": "Startseite"
+    },
+    "Content": {
+        "Logo": {
+            "Startseite": "Startseite",
+            "Sprachen_Link": "<a href='./index.php?lang=en' ><img   src='./images/en.gif'>English</a><br><a href='./index.php?lang=fr' ><img   src='./images/fr.gif'>Français </a>\n"
+        },
+        "Kontaktformular": {
+            "Kontaktieren": "Kontaktieren Sie uns",
+            "errorName": "Ihr Name muss mindestens 2 Zeichen lang sein.",
+            "errorEmail": "Sie haben eine ung&uuml;ltige E-Mail Adresse eingegeben.",
+            "errorMsg": "Ihre Nachricht muss mindestens 10 Zeichen lang sein.",
+            "errorCaptcha": "Falsch berechnet!",
+            "errorDataProtection": "Bitte stimmen der Verarbeitung Ihrer Daten zu!",
+            "Name": "Name",
+            "Email": "E-Mail Adresse",
+            "Betreff": "Betreff",
+            "Nachricht": "Nachricht",
+            "Bitte_Rechenaufgabe": "Bitte l&ouml;sen Sie folgende einfache Rechenaufgabe",
+            "Hinweis_Datenschutz":"Mit dem Senden dieses Formulars erkläre Ich mich mit der Verarbeitung meiner Daten zum Zweck der Bearbeitung meiner Kontaktanfrage einverstanden und habe den Hinweis über mein Recht auf Widerspruch in Ihren 
+            <a href='#!/datenschutz' class='datenschutz'>Datenschutz-Bestimmungen</a> zur Kenntnis genomen.",
+            "Vielen_Dank":"Vielen Dank f&uuml;r Ihre Nachricht! Wir setzen uns in den n&auml;chsten Tagen mit Ihnen in Verbindung."
+        },
+        "Galerie": [
+            {
+                "Beschreibung": "<b>Bild  1:</b> Kompaktlift KLD, bis 250 kg"
+            },
+            {
+                "Beschreibung": "<b>Bild  2:</b> Akkulift für horizontales und vertikales Glashandling<br>Funkfernsteuerung"
+            },
+            {
+                "Beschreibung": "<b>Bild  3:</b> Leichtschwenkkran und Leichtlift LK 350 <br>mit Sonderrahmen nach Kundenwunsch "
+            },
+            {
+                "Beschreibung": "<b>Bild  4:</b> Plattensaugrahmen PSR 1000<br>f&uuml;r Betrieb am Hallenkran"
+            },
+            {
+                "Beschreibung": "<b>Bild  5:</b> Leichtlift LKD 250 Sonder<br>mit pneumatisch breitenverstellbaren Saugrahmen"
+            },
+            {
+                "Beschreibung": "<b>Bild  6:</b> "
+            },
+            {
+                "Beschreibung": "<b>Bild  7</b> Leichtschwenkkran mit 7,5 m Ausleger<br>und Leichtlift LK 250"
+            },
+            {
+                "Beschreibung": "<b>Bild  8:</b> Sonderlift f&uuml;r Montage von Hochschr&auml;nken"
+            },
+            {
+                "Beschreibung": "<b>Bild  9:</b> Drehstation f&uuml;r 180° drehen von Fachregalen"
+            },
+            {
+                "Beschreibung": "<b>Bild  10:</b> Leichtlift LKD 250 f&uuml;r 180° drehen<br>mit h&ouml;henverstellbarem Bedienpult"
+            },
+            {
+                "Beschreibung": "<b>Bild  11:</b> Leichtschwenkkran mit Leichtlift LK 350"
+            },
+            {
+                "Beschreibung": "<b>Bild  12:</b> LK 250 mit Sondersaugrahmen nach Kundenwunsch"
+            },
+            {
+                "Beschreibung": "<b>Bild  13:</b> Fensterbaulift LKD 250 FB<br>mit Manipulationseinheit f&uuml;r Fenster und T&uuml;rrahmen zentrale Sauger universell verstellbar, alle Saugteller gefedert"
+            },
+            {
+                "Beschreibung": "<b>Bild  14:</b> Leichtlift LKD 250 f&uuml;r 180° drehen<br>mit h&ouml;henverstellbarem Bedienpult"
+            },
+            {
+                "Beschreibung": "<b>Bild  15:</b> Leichtlift LKD 250 f&uuml;r 90° drehen"
+            },
+            {
+                "Beschreibung": "<b>Bild  16:</b> Leichtlift LKD 350 f&uuml;r 90° drehen"
+            },
+            {
+                "Beschreibung": "<b>Bild  17:</b> Sonderlift LKD 250 PP<br>nach Kundenwunsch"
+            },
+            {
+                "Beschreibung": "<b>Bild  18:</b> Fensterbaulift  LKD 250 FB"
+            },
+            {
+                "Beschreibung": "<b>Bild  19:</b> Telskoplift TL 250<br>mit elektrischer Teleskophubeinheit<br>und frequenzumrichtergesteuerter elektrischer Dreheinheit"
+            },
+            {
+                "Beschreibung": "<b>Bild  20:</b> Fensterbaulift  LKD 250 FB"
+            },
+            {
+                "Beschreibung": "<b>Bild  21:</b> FRAMATECH Krananlage <br>mit 2 Dppelbr&uuml;cken und Liften f&uuml;r Fensterbau"
+            },
+            {
+                "Beschreibung": "<b>Bild  22:</b> Sonderlift LKD 250 K<br>f&uuml;r Betrieb am Kranhaken"
+            },
+            {
+                "Beschreibung": "<b>Bild  23:</b> Wendeger&auml;t LWN 150<br>f&uuml;r 180° wenden von Fenstern<br>nach Kundenwunsch"
+            },
+            {
+                "Beschreibung": "<b>Bild  24:</b> LKD 500 SF<br>Vakuumerzeugung durch Venturid&uuml;sen<br>mit Sparfunktion<br>Saugrahmen nach Kundenwunsch"
+            },
+            {
+                "Beschreibung": "<b>Bild  25:</b> "
+            },
+            {
+                "Beschreibung": "<b>Bild  26:</b> "
+            },
+            {
+                "Beschreibung": "<b>Bild  27:</b> "
+            },
+            {
+                "Beschreibung": "<b>Bild  28:</b> "
+            },
+            {
+                "Beschreibung": "<b>Bild  29:</b> "
+            }
+        ]
+    },
+    "fooder": {
+        "Anschrift": "Anschrift",
+        "Firmenname": "Framatech GmbH",
+        "Strasse": "Richard-St&uuml;cklen-Str. 19",
+        "Ort": "91710 Gunzenhausen",
+        "Land": "Germany",
+        "Kontakt": "Kontakt",
+        "Telefon": "Telefon: 09831/8809686",
+        "Tel_Service": "Tel. Service: 0176/55621333",
+        "Email": "e-mail: info@framatech.de",
+        "Kontakt_Formular": "Kontakt-Formular (online)",
+        "Bankverbindung": "Bankverbindung",
+        "Bankbezeichnung": "Raiffeisenbank",
+        "WUG_GUN": "WUG-GUN eG",
+        "BLZ": "BLZ: 760 694 68",
+        "Konto_Nr": "Konto-Nr. 74 950",
+        "Geschaeftsfuehrer": "Gesch&auml;ftsf&uuml;hrer",
+        "Name": "Friedrich M&uuml;ller",
+        "Registergericht": "Registergericht Ansbach",
+        "HRB": "HRB 5587",
+        "Sitz": "Sitz: Gunzenhausen",
+        "Downloads": "Downloads",
+        "AGB_Link": "<a href='./downloads/agb.pdf'>AGB</a>",
+        "Montagebedingungen_Link": "<a href='./downloads/montagebedingungen_D_K.pdf'>Montagebedingungen</a>",
+        "Flyer_Link": "<a href='./downloads/flyer.pdf'>Flyer</a>",
+        "Prospekt_Link": "<a href='./downloads/prospekt.pdf'>Prospekt</a>",
+        "Impressum_Link": "<a href='#!/impressum' id='impressum'>Impressum</a>",
+        "Datenschutz_Bestimmungen_Link": "<br><a href='#!/datenschutz' class='datenschutz'>Datenschutz-Bestimmungen</a>"
+    }
+}

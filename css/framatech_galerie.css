@@ -1,0 +1,92 @@
+#galerie_box
+{
+min-height:550px; 
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+box-shadow: 3px 3px 7px #333;
+}
+
+	.slider_window
+	{
+	position: relative;
+	overflow-y: scroll;
+	padding: 0em 20px 0em 20px;
+	margin: 0px;
+	margin-top:0em;
+	width:19%;
+	height: 550px;
+	float:left;
+	background-color:transparent;
+	}
+
+		.slider_div
+		{
+		height: 550px;
+		margin-bottom: 1em;
+		width:90%;
+		position: absolute;
+		}
+		
+		
+			.my_thumbnail_li 
+			{
+				padding-top: 25px;
+				padding-bottom: 10px;
+				padding-left: 0px;
+				background-image:url("../images/einzelner_filmstreifen.jpg");
+				background-size: cover;
+
+			}
+			
+					.thumbnail
+					{
+					box-shadow: 3px 3px 7px #333;
+					border-radius:5px;
+					-moz-border-radius:5px;
+					}
+					
+			
+			
+		
+		
+	#my_viwer
+	{
+	width:40%; 
+	margin:auto 20px; 
+	padding-top: 1em; 
+	float:left;
+	position:relative;
+	background-color:transparent;
+	}
+	
+	#my_viwer_description
+	{
+	width:33%;
+	height: 550px;
+	margin:0em; 
+	float:right;
+	position:relative;
+	background-color:transparent;
+	}
+	
+		#my_img
+		{
+		position: relative;
+		width:80%; 
+		margin:auto auto; 
+		box-shadow: 3px 3px 7px #333;
+		border-radius:10px;
+		-moz-border-radius:10px;
+		}
+		
+	#my_description
+	{
+	width:100%;
+    padding-top: 50px;
+	height: 550px; 
+	float:left;
+	text-align: left; 
+	overflow-y: auto; 
+	max-height:300px;
+	}

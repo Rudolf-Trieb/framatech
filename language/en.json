@@ -1,0 +1,147 @@
+{
+  "Metadaten": {
+    "keywords": "Lifter Systems, Craneways, Transport Conveyors",
+    "description": "We design, produce and assemble machines, handling units and crane systems for all kinds of transport tasks! Our team has more than 25 years of experience in custom engineering, challenge us!",
+    "content_language": "en",
+    "language": "english"
+  },
+
+  "Actions": {
+	"Senden": "send"
+  },
+  
+  "Menus": {
+  
+	"Lifte": "Lifter Systems",
+		"Zum_Drehen" : "For turning, tilting and/or <br>turn-over of sheet metal, <br>flat glass, bended panes, <br>wooden plates, etc.<br>Different other objects can be moved savely by using our individual gripping systems!",
+			"Hubeinrichtung_500": "up to 600 kg with pneumatic hoisting tube",
+			"Hubeinrichtung_1500": "up to 1500 kg with electric hoisting tube",
+			"Hallenkraene": "Lifters for mounting in an overhead-crane",
+			"Akkulifte": "Accumulator driven suction frames for outdoor use",
+			
+	"Krananlagen": "Craneways",
+			"Unsere_Lifte": "Our lifters are ready for mounting in an <br>existing craneway. <br>Of course you can also order your individual lightweight craneway together with your lifter.<br> We’ll be happy to advise you.",
+				"Ueberkranungen": "Lightweight craneways (e. g. Abus-systems),<br> with one or two double rail bridges, traction drive<br> as option, on pillars and/or consoles or hanged<br> from the factory roof.",
+				"Saeulen": "Slewing cranes for pillar or wall mounting with jib length up to 7,5 m",
+				
+	"Transportstrecken":"Transport Conveyors",
+		"Rollen": "Roller / Accumulation conveyor",
+		"Riemen": "Belt conveyors",
+		"Kipptische": "Tilting tables",
+		
+	"Servicedienstleistungen": "Support Services",
+		"Kransysteme": "We also offer you for your existing cranes, handling devices and also<br> laminating lines:",
+			"Reparaturen": "repair works and spare parts",
+			"Wartung":"Service",
+			"Umbaumassnahmen": "modernization ,reorganization<br> and reprogramming ",
+			
+	"Sicherheitspruefungen": "Safety Checking",
+		"Pruefung": "We carry out safety checking <br>for cranes and lifting devices <br>according to accident prevention <br>regulations. <br> BGG 905/ZH 1/27 <br> ",
+	
+	"Galerie": "Photo Gallery",
+	
+	"Industrielackierungen": "",
+		"fällt raus": "",
+		
+	"Startseite": "Home"
+  },
+  
+  "Content": {
+  
+	"Logo": {
+		"Startseite":"Home",
+		"Sprachen_Link": "<a href='./index.php?lang=de' ><img   src='./images/de.gif'>Deutsch</a><br><a href='./index.php?lang=fr' ><img   src='./images/fr.gif'>Français</a>\n"
+	},
+
+	"Kontaktformular": {
+	
+		"Kontaktieren":"Contact Us",
+		
+		"errorName":"Your name must be at least 2 characters long.",
+		"errorEmail":"You have entered an invalid e-mail address.",
+		"errorMsg":"Your message must be at least 10 characters.",
+		"errorCaptcha":"Incorrectly calculated!",
+		"errorDataProtection": "Please agree to the processing of your data!",
+		"Name":"name",
+		"Email":"E-mail address",
+		"Betreff":"subject",
+		"Nachricht":"message",
+		"Bitte_Rechenaufgabe":"Please solve the following simple math!",
+		"Hinweis_Datenschutz":"By submitting this form, I consent to the processing of my data for the purpose of processing my contact request and have noted the notice of my right to object to your <a href='../datenschutz_en.html' target='_blank' class='datenschutz'>privacy policy.</a>",
+		"Vielen_Dank":"Many thanks for your message, we contact you soon!"
+	},
+	
+	"Galerie" : 
+		[
+			{"Beschreibung":"<b>Image  1:</b><br><br> Kompaktlift KLD, bis 250 kg"},
+			{"Beschreibung":"<b>Image  2:</b><br><br> Akkulift f&uuml;r horizontales und vertikales GlashandlingFunkfernsteuerung"},
+			{"Beschreibung":"<b>Image  3:</b><br><br> Leichtschwenkkran und Leichtlift LK 350 mit Sonderrahmen nach Kundenwunsch "},
+			{"Beschreibung":"<b>Image  4:</b><br><br> Plattensaugrahmen PSR 1000f&uuml;r Betrieb am Hallenkran"},
+			{"Beschreibung":"<b>Image  5:</b><br><br> Leichtlift LKD 250 Sondermit pneumatisch breitenverstellbaren Saugrahmen"},
+			{"Beschreibung":"<b>Image  6:</b><br><br> "},
+			{"Beschreibung":"<b>Image  7:</b><br><br> Leichtschwenkkran mit 7,5 m Auslegerund Leichtlift LK 250"},
+			{"Beschreibung":"<b>Image  8:</b><br><br> Sonderlift f&uuml;r Montage von Hochschr&auml;nken"},
+			{"Beschreibung":"<b>Image  9:</b><br><br> Drehstation f&uuml;r 180° drehen von Fachregalen"},
+			{"Beschreibung":"<b>Image  10:</b><br><br> Leichtlift LKD 250 f&uuml;r 180° drehenmit h&ouml;henverstellbarem Bedienpult"},
+			{"Beschreibung":"<b>Image  11:</b><br><br> Leichtschwenkkran mit Leichtlift LK 350"},
+			{"Beschreibung":"<b>Image  12:</b><br><br> LK 250 mit Sondersaugrahmen nach Kundenwunsch"},
+			{"Beschreibung":"<b>Image  13:</b><br><br> Fensterbaulift LKD 250 FBmit Manipulationseinheit f&uuml;r Fenster und T&uuml;rrahmen zentrale Sauger universell verstellbar, alle Saugteller gefedert"},
+			{"Beschreibung":"<b>Image  14:</b><br><br> Leichtlift LKD 250 f&uuml;r 180° drehenmit h&ouml;henverstellbarem Bedienpult"},
+			{"Beschreibung":"<b>Image  15:</b><br><br> Leichtlift LKD 250 f&uuml;r 90° drehen"},
+			{"Beschreibung":"<b>Image  16:</b><br><br> Leichtlift LKD 350 f&uuml;r 90° drehen"},
+			{"Beschreibung":"<b>Image  17:</b><br><br> Sonderlift LKD 250 PPnach Kundenwunsch"},
+			{"Beschreibung":"<b>Image  18:</b><br><br> Fensterbaulift  LKD 250 FB"},
+			{"Beschreibung":"<b>Image  19:</b><br><br> Telskoplift TL 250mit elektrischer Teleskophubeinheitund frequenzumrichtergesteuerter elektrischer Dreheinheit"},
+			{"Beschreibung":"<b>Image  20:</b><br><br> Fensterbaulift  LKD 250 FB"},
+			{"Beschreibung":"<b>Image  21:</b><br><br> FRAMATECH Krananlage mit 2 Dppelbr&uuml;cken und Liften f&uuml;r Fensterbau"},
+			
+			{"Beschreibung":"<b>Image  22:</b><br><br> Sonderlift LKD 250 Kf&uuml;r Betrieb am Kranhaken"},
+			{"Beschreibung":"<b>Image  23:</b><br><br> Wendeger&auml;t LWN 150f&uuml;r 180° wenden von Fensternnach Kundenwunsch"},
+			{"Beschreibung":"<b>Image  24:</b><br><br> LKD 500 SFVakuumerzeugung durch Venturid&uuml;senmit SparfunktionSaugrahmen nach Kundenwunsch"},
+			{"Beschreibung":"<b>Image  25:</b><br><br> "},
+			{"Beschreibung":"<b>Image  26:</b><br><br> "},
+			{"Beschreibung":"<b>Image  27:</b><br><br> "},
+			{"Beschreibung":"<b>Image  28:</b><br><br> "},
+			{"Beschreibung":"<b>Image  29:</b><br><br> "}		
+		]
+	
+  },
+  
+  "fooder": {
+  
+	"Anschrift":"Adress",
+		"Firmenname":"Framatech GmbH",
+		"Strasse":"Richard-St&uuml;cklen-Str. 19",
+		"Ort":"91710 Gunzenhausen",
+		"Land":"Germany",
+		
+	"Kontakt":"Contact",
+		"Telefon":"Telefon: 09831/8809686",
+		"Tel_Service":"Tel. Service: 0176/55621333",
+		"Email":"e-mail: info@framatech.de",
+		"Kontakt_Formular":"Contact Sheet (online)",
+		
+	"Bankverbindung":"Banking Connection",
+		"Bankbezeichnung":"Raiffeisenbank",
+		"WUG_GUN":"WUG-GUN eG",
+		"BLZ":"BLZ 760 694 68",
+		"Konto_Nr":"Konto-Nr. 74 950",	
+		
+	"Geschaeftsfuehrer":"Chief Executive",
+		"Name":"Friedrich M&uuml;ller",
+		"Registergericht":"Registergericht Ansbach",
+		"HRB":"HRB 5587",
+		"Sitz":"Sitz: Gunzenhausen",
+		
+	"Downloads":"Downloads",
+		"AGB_Link":"<a href='./downloads/agb_en.pdf'>Terms and Conditions</a>",
+		"Montagebedingungen_Link":"<a href='./downloads/montagebedingungen_D_K_en.pdf'>Mounting Conditions</a>",
+		"Flyer_Link":"<a href='./downloads/flyer_en.pdf'>Flyer</a>",
+		"Prospekt_Link":"<a href='./downloads/prospekt_en.pdf'>Prospectus</a>",
+	
+	"Impressum_Link":"<a href='#!/impressum_en' id='impressum'>Imprint</a>",
+    "Datenschutz_Bestimmungen_Link": "<br><a href='#!/datenschutz' class='datenschutz'>Privacy Policy</a>"
+	
+  }
+  
+}
