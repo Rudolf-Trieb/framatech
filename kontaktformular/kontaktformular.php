@@ -1,7 +1,7 @@
 <?php session_start(); ?>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
-<?php include("language/translate.php") ?>
 
+<?php include("../language/translate.php") ?>
+	
 <?php 
 	$language = new language("../language/",$_SESSION['Sprache']);
 	$lang = $language->translate();
@@ -15,104 +15,29 @@
 define("MAIL_TARGET","info@framatech.de");
 
 // Hier können Sie die Fehlermeldungen festlegen, die erscheinen wenn ein Benutzer das Formular unzureichend ausfüllt.
+define("errorName","Ihr Name muss mindestens 2 Zeichen lang sein.");
+define("errorEmail","Sie haben eine ung&uuml;ltige E-Mail Adresse eingegeben.");
+define("errorMsg","Ihre Nachricht muss mindestens 10 Zeichen lang sein.");
+define("errorCaptcha", "Falsch berechnet!");
 
-define("errorName",$lang->Content->Kontaktformular->errorName);
-define("errorEmail",$lang->Content->Kontaktformular->errorEmail);
-define("errorMsg",$lang->Content->Kontaktformular->errorMsg);
-define("errorCaptcha",$lang->Content->Kontaktformular->errorCaptcha);
-define("errorDataProtection",$lang->Content->Kontaktformular->errorDataProtection);
-
-function createForm($lang,$name="",$email="",$betreff="",$message="",$error1="",$error2="",$error3="",$error4="",$error5=""){
+function createForm($lang,$name="",$email="",$betreff="",$message="",$error1="",$error2="",$error3="",$error4=""){
   $zahl1 = rand(10,20); //Erste Zahl 10-20
   $zahl2 = rand(1,10);  //Zweite Zahl 1-10
 	echo "
       <form action='".$_SERVER['PHP_SELF']."' method='post'>
         <table>
-          <tr>
-            <td width='120px'>
-              ".$lang->Content->Kontaktformular->Name.": 
-            </td>
-            <td class='fehler'>
-              ".$error1."
-            </td>
-          </tr>
-          <tr>
-            <td colspan='2'>
-              <input class='text' type='text' name='name' value='".$name."'>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              ".$lang->Content->Kontaktformular->Email.":
-            </td>
-            <td class='fehler'>
-              ".$error2."
-            </td>
-          </tr>
-		      <tr>
-            <td colspan='2'>
-              <input class='text' type='text' name='email' value='".$email."'>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              ".$lang->Content->Kontaktformular->Betreff.":
-            </td>
-          </tr>
-          <tr>
-            <td colspan='2'>
-              <input class='text' type='text' name='betreff' value='".$betreff."'>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              ".$lang->Content->Kontaktformular->Nachricht.":
-            </td>
-            <td class='fehler'>
-              ".$error3."
-            </td>
-          </tr>
-          <tr>
-            <td colspan='2'>
-              <textarea cols='40' rows='4' name='message'>".$message."</textarea>
-            </td>
-          </tr>
-    		  <tr>
-            <td colspan='2' class='rechenaufgabe'>
-              ".$lang->Content->Kontaktformular->Bitte_Rechenaufgabe.":
-            </td>
-          </tr>
-    		  <tr>
-            <td>
-              ".$zahl1." + ".$zahl2." = 
-            </td>
-            <td>
-              <input type='text' name='summe' size='5'>
-            </td>
-          </tr>
-          <tr>
-            <td colspan='2' class='fehler'>
-              ".$error4."
-            </td>
-          </tr>
-          <tr>
-            <td colspan='2' class='datenschutz'>
-              ".$lang->Content->Kontaktformular->Hinweis_Datenschutz.": 
-            </td>
-            <td class='datenschutz'>
-              <input type='checkbox' name='data_protection' id='input-data-protection'>
-            </td>
-          </tr>
-          <tr>
-            <td colspan='2' class='fehler'>
-              ".$error5."
-            </td>
-          </tr>		  
-          <tr>
-            <td colspan='2'>
-              <input class='submit' type='submit' name='submitBtn' value='".$lang->Actions->Senden."'>
-            </td>
-          </tr> 
+          <tr><td width='120px'>".$lang->Content->Kontaktformular->Name.": </td><td class='fehler'>".$error1."</td></tr>
+          <tr><td colspan='2'><input class='text' type='text' name='name' value='".$name."'></td></tr>
+          <tr><td>".$lang->Content->Kontaktformular->Email.":</td><td class='fehler'>".$error2."</td></tr>
+		  <tr><td colspan='2'><input class='text' type='text' name='email' value='".$email."'></td></tr>
+          <tr><td>".$lang->Content->Kontaktformular->Betreff.":</td></tr>
+          <tr><td colspan='2'><input class='text' type='text' name='betreff' value='".$betreff."'></td></tr>
+          <tr><td>".$lang->Content->Kontaktformular->Nachricht.":</td><td class='fehler'>".$error3."</td></tr>
+          <tr><td colspan='2'><textarea cols='40' rows='6' name='message'>".$message."</textarea></td></tr>
+		  <tr><td colspan='2' class='rechenaufgabe'>".$lang->Content->Kontaktformular->Bitte_Rechenaufgabe.":</td></tr>
+		  <tr><td>".$zahl1." + ".$zahl2." = </td><td><input type='text' name='summe' size='5'></td></tr>	
+          <tr><td colspan='2' class='fehler'>".$error4."</td></tr>		  
+          <tr><td colspan='2'><input class='submit' type='submit' name='submitBtn' value='".$lang->Actions->Senden."'></td></tr> 
         </table>
         <input type='hidden' name='zahl1' value='".$zahl1."'/>
         <input type='hidden' name='zahl2' value='".$zahl2."'/>
@@ -163,9 +88,9 @@ body {
 #main {
     margin: 1em;  /* Außenabstand */
 	border: 1px solid #ddd;  /* Stärke, Kontur und Farbe des äußeren Formular-Rahmens */
-	width: 366px;  /* Breite */
+	width: 381px;  /* Breite */
     min-height:150px;  /* Minimale Höhe */
-	height: 100%; /* Höhe */
+	height: 428px; /* Höhe */
 	background: #fff;  /* Hintergrund-Farbes */
     font-family: Verdana,Arial,Helvetica,sans-serif;  /* Standardschriftart */
     font-weight: bold;   /* Stärke der Standardschriftart */
@@ -179,8 +104,8 @@ body {
 form {
     margin-left: 10px;  /* Außenabstand zum äußeren Formular-Rahmen */
 	border: 1px solid #ddd;  /* Stärke, Kontur und Farbe des Rahmens */
-	width: 340px;  /* Breite */
-	height: 100%;  /* Höhe */
+	width: 350px;  /* Breite */
+	height:357px;  /* Höhe */
 	background: #f5f4f9;  /* Hintergrundfarbe  */
     padding: 5px;  /* Innenabstand */
     margin-bottom: 10px;  /* Außenabstand nach unten */
@@ -254,12 +179,6 @@ textarea {
 	font-weight: bold;  /* Schriftgewicht */
 }
 
-/* Gestaltung des Datenschutzhinweises */
-.datenschutz {
-  font-size: 10px;  /* Schriftgröße */
-  font-weight: bold;  /* Schriftgewicht */
-}
-
 /* Gestaltung der Sponsored-Zeile */
 .sponsored {
 	font-size: 9px;  /* S chriftgröße */
@@ -287,56 +206,57 @@ textarea {
     <div id="main">
 	  <!--  Hier können Sie die Überschrift des Formulars ändern.  //-->
       <div id="titelschrift"><?php echo $lang->Content->Kontaktformular->Kontaktieren; ?></div> 
-<?php 
-  if (!isset($_POST['submitBtn']))  { 
+<?php if (!isset($_POST['submitBtn']))  { 
     createForm($lang);
 } else  { 
+
+  if( ($_POST['zahl1'] > 0) && ($_POST['zahl1'] + $_POST['zahl2'] == $_POST['summe']) ){
+
       $name    = isset($_POST['name']) ? $_POST['name'] : "";
       $email   = isset($_POST['email']) ? $_POST['email'] : "";
-      $betreff = isset($_POST['betreff']) ? $_POST['betreff'] : "";
+	  $betreff = isset($_POST['betreff']) ? $_POST['betreff'] : "";
       $message = isset($_POST['message']) ? $_POST['message'] : "";
-      $data_protection=$_POST['data_protection']? true : false;
-      if( ($_POST['zahl1'] > 0) && ($_POST['zahl1'] + $_POST['zahl2'] == $_POST['summe']) ){
-
-          $error = false;
-          
-          if (strlen($name)<2) {
-              $error = true;
-              $error1 = errorName;
-          }
-          if (!isValidEmail($email)) {
-              $error = true;
-              $error2 = errorEmail;
-          }
-          if (strlen($message)<10) {
-              $error = true;
-              $error3 = errorMsg;
-          }
-          if (!$data_protection) {
-              $error = true;
-              $error5= errorDataProtection;
-          }
-          
-          if ($error){
-             createForm($lang,$name,$email,$betreff,$message,$error1,$error2,$error3,$error4,$error5); 
-          }
-          else {
-              sendMail($name,$email,$betreff,$message);
-              
-?>
-              		<div id="ergebnisseite">
-              			<table width="100%">
-              			<tr><td>
-              				<!--  Hier können Sie die Nachricht ändern, die dem Benutzer nach dem Abschicken des Formulars angezeigt wird.  //-->
-              				<?php echo $lang->Content->Kontaktformular->Vielen_Dank; ?>
-              			</td></tr>
-              			</table>
-              		</div>
-              <?php
-        }
-      } else {
-          createForm($lang,$name,$email,$betreff,$message,"","","",errorCaptcha); 
+      
+      $error = false;
+      
+      if (strlen($name)<2) {
+          $error = true;
+          $error1 = errorName;
       }
+      if (!isValidEmail($email)) {
+          $error = true;
+          $error2 = errorEmail;
+      }
+      if (strlen($message)<10) {
+          $error = true;
+          $error3 = errorMsg;
+      }
+      
+      if ($error){
+         createForm($lang,$name,$email,$betreff,$message,$error1,$error2,$error3,$error4); 
+      }
+      else {
+          sendMail($name,$email,$betreff,$message);
+          
+?>
+		<div id="ergebnisseite">
+			<table width="100%">
+			<tr><td>
+				<!--  Hier können Sie die Nachricht ändern, die dem Benutzer nach dem Abschicken des Formulars angezeigt wird.  //-->
+				<?php echo $lang->Content->Kontaktformular->Vielen_Dank; ?>
+			</td></tr>
+			</table>
+		</div>
+<?php
+    }
+} else {
+
+      $name    = isset($_POST['name']) ? $_POST['name'] : "";
+      $email   = isset($_POST['email']) ? $_POST['email'] : "";
+	  $betreff = isset($_POST['betreff']) ? $_POST['betreff'] : "";
+      $message = isset($_POST['message']) ? $_POST['message'] : "";
+         createForm($lang,$name,$email,$betreff,$message,"","","",errorCaptcha); 
+}
 }
 ?>
 	</div>

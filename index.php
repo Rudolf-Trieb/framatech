@@ -49,8 +49,9 @@
 				
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
 		<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+		<script type="text/javascript" language="javascript" src="js/app.js"></script>
 
-		<?php include("./app.js.php") ?>
+		
 		
 	</head>
 

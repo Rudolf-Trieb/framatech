@@ -12,11 +12,17 @@ a				{ text-decoration: none; color:red }
 ul				{ list-style: none; }
 p                              { margin: 15px 0; }
 
+
+ul.dropdown li {
+	background-image:url('../images/background.jpg');
+}
+
+
 /* 
 	LEVEL ONE
 */
 ul.dropdown                         { position: relative; top:0px}
-ul.dropdown li                      {  font-weight: bold; float: left; zoom: 1; background: #ccc; }
+ul.dropdown li                      {  font-weight: bold; float: left; zoom: 1; background_old: #ccc; }
 ul.dropdown li:hover          { -moz-transform: scale(1.05); -webkit-transform: scale(1.05); box-shadow: 3px 3px 7px #333;border-radius:10px;-moz-border-radius:10px}
 ul.dropdown a:hover		            { color: #000}
 ul.dropdown a:active                { color: #808080; }
@@ -34,7 +40,7 @@ ul.dropdown li.hover a              { color: black; }
 */
 ul.dropdown ul 						{ font: 13px Helvetica, Sans-Serif; width: 310px; visibility: hidden; position: absolute; top: 100%; left: 0px; }
 
-ul.dropdown ul li 					{ font-weight: normal; background: #ccc; color: #000; 
+ul.dropdown ul li 					{ font-weight: normal; background_old: #ccc; color: #000; 
 									  border-bottom: 1px solid #ccc; float: none; }
 ul.dropdown ul li:last-child          { float: none;border-left: 0px solid #333; }
 									  
@@ -108,7 +114,7 @@ margin: auto 0;
 
 #fooder table tr td {
 	padding: 0.5em;
-	background-image:url('../images/obackground.jpg');
+	background-image:url('../images/background.jpg');
 	background-repeat: no-repeat;
 	background-size:100% 100%;
 	font: 10px Courier New,Helvetica, Sans-Serif; 
