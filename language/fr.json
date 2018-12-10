@@ -9,36 +9,36 @@
         "Senden": "Senden"
     },
     "Menus": {
-        "Lifte": "   Liftsysteme   ",
+        "Lifte": "Systèmes de Levage",
         "Zum_Drehen": "Zum Drehen, Kippen, Neigen<br>und Wenden von Blechen,<br>Flachglas, gebogenem Glas,<br>Holzplatten etc.<br>Durch Einsatz individueller <br>Greifsysteme k&ouml;nnen auch<br> beliebige andere Objekte<br>sicher bewegt werden!",
         "Hubeinrichtung_500": "mit pneumatischer Hubeinrichtung bis 600 kg",
         "Hubeinrichtung_1500": "mit elektrischer Hubeinrichtung bis 1500 kg",
         "Hallenkraene": "Lifte zum Einh&auml;ngen in Hallenkr&auml;ne",
         "Akkulifte": "Akkulifte f&uuml;r Baustelleneinsatz",
-        "Krananlagen": "Krananlagen",
+        "Krananlagen": "Systèmes de Grues",
         "Unsere_Lifte": "Unsere Lifte werden fertig zum Einh&auml;ngen <br>in bestehende Krananlagen geliefert,<br>selbstverst&auml;ndlich k&ouml;nnen Sie Ihre <br>individuelle Leicht&uuml;berkranung aber <br>auch gleich mitbestellen.<br>Wir beraten sie gerne vor Ort!",
         "Ueberkranungen": "&Uuml;berkranungen (z.B. Abus-Schienensysteme),<br>mit einer oder mehreren Doppelbr&uuml;cken,<br>optional Fahrantriebe, auf St&uuml;tzen und/oder<br>Konsolen oder von der Hallendecke <br>abgeh&auml;ngt.",
         "Saeulen": "S&auml;ulen oder Wandschwenkkr&auml;ne mit bis zu<br>7,5 m Ausleger",
-        "Transportstrecken": "Transportstrecken",
+        "Transportstrecken": "Courriers de Transport",
         "Rollen": "Rollen-/Walzen-/Stauf&ouml;rderer",
         "Riemen": "Riemen-/Gurtf&ouml;rderer",
         "Kipptische": "Kipptische",
-        "Servicedienstleistungen": "Servicedienstleistungen",
+        "Servicedienstleistungen": "Services de Réparation",
         "Kransysteme": "F&uuml;r neue und bestehende<br>Kransysteme und Anlagen<br>bieten wir Ihnen:",
         "Reparaturen": "Reparaturen und Ersatzteile",
         "Wartung": "Wartung/Wartungsvertr&auml;ge",
         "Umbaumassnahmen": "Umbauma&szlig;nahmen, auch Programmierungen",
-        "Sicherheitspruefungen": "Sicherheitspr&uuml;fungen",
+        "Sicherheitspruefungen": "Contrôles de Sécurité",
         "Pruefung": "Gerne f&uuml;hren wir f&uuml;r Sie die gesetzlich vorgeschriebene j&auml;hrliche Pr&uuml;fung an Kranen <br>und Hebeger&auml;ten <br>nach BGG 905/ZH 1/27 <br>(UVV-Pr&uuml;fung) durch.",
-        "Galerie": "Fotogalerie",
+        "Galerie": "Galerie",
         "Industrielackierungen": "Industrielackierungen",
         "Lackierservice": "In unserer hochmodernen Lackierhalle bieten wir f&uuml;r regionale Firmen einen professionellen und preisg&uuml;nstigen Lackierservice f&uuml;r Metallkonstruktionen bis 14 Meter L&auml;nge",
-        "Startseite": "Startseite"
+        "Startseite": "Page d'Accueil"
     },
     "Content": {
         "Logo": {
-            "Startseite": "Startseite",
-            "Sprachen_Link": "<a href='./index.php?lang=en' ><img   src='./images/en.gif'>English</a><br><a href='./index.php?lang=de' ><img   src='./images/de.gif'>Allemande</a>\n"
+            "Startseite": "Page d'Accueil",
+            "Sprachen_Link": "<a href='./index.php?lang=en' ><img   src='./images/en.gif'>English</a><br><a href='./index.php?lang=de' ><img   src='./images/de.gif'>Deutsch</a>\n"
         },
         "Kontaktformular": {
             "Kontaktieren": "Kontaktieren Sie uns",
@@ -53,7 +53,7 @@
             "Nachricht": "Nachricht",
             "Bitte_Rechenaufgabe": "Bitte l&ouml;sen Sie folgende einfache Rechenaufgabe",
             "Hinweis_Datenschutz":"En soumettant ce formulaire, j'autorise le traitement de mes données aux fins de traitement de ma demande de contact et j'ai pris note de la notification de mon droit de m'opposer à votre <a href='../datenschutz_fr.html' target='_blank' class='datenschutz'>politique de confidentialité.</a>",
-            "Vielen_Dank":"Vielen Dank f&uuml;r Ihre Nachricht! Wir setzen uns in den n&auml;chsten Tagen mit Ihnen in Verbindung."
+            "Vielen_Dank": "Vielen Dank f&uuml;r Ihre Nachricht! Wir setzen uns in den n&auml;chsten Tagen mit Ihnen in Verbindung."
         },
         "Galerie": [
             {
@@ -155,7 +155,7 @@
         "Telefon": "Telefon: 09831/8809686",
         "Tel_Service": "Tel. Service: 0176/55621333",
         "Email": "e-mail: info@framatech.de",
-        "Kontakt_Formular": "Formulaire de contact",
+        "Kontakt_Formular": "Kontakt-Formular (online)",
         "Bankverbindung": "Bankverbindung",
         "Bankbezeichnung": "Raiffeisenbank",
         "WUG_GUN": "WUG-GUN eG",

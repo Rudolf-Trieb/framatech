@@ -52,9 +52,8 @@
             "Betreff": "Betreff",
             "Nachricht": "Nachricht",
             "Bitte_Rechenaufgabe": "Bitte l&ouml;sen Sie folgende einfache Rechenaufgabe",
-            "Hinweis_Datenschutz":"Mit dem Senden dieses Formulars erkläre Ich mich mit der Verarbeitung meiner Daten zum Zweck der Bearbeitung meiner Kontaktanfrage einverstanden und habe den Hinweis über mein Recht auf Widerspruch in Ihren 
-            <a href='#!/datenschutz' class='datenschutz'>Datenschutz-Bestimmungen</a> zur Kenntnis genomen.",
-            "Vielen_Dank":"Vielen Dank f&uuml;r Ihre Nachricht! Wir setzen uns in den n&auml;chsten Tagen mit Ihnen in Verbindung."
+            "Hinweis_Datenschutz":"Mit dem Senden dieses Formulars erkläre Ich mich mit der Verarbeitung meiner Daten zum Zweck der Bearbeitung meiner Kontaktanfrage einverstanden und habe den Hinweis über mein Recht auf Widerspruch in Ihren <a href='../datenschutz_de.html' target='_blank' class='datenschutz'>Datenschutz-Bestimmungen</a> zur Kenntnis genomen.", 
+            "Vielen_Dank": "Vielen Dank f&uuml;r Ihre Nachricht! Wir setzen uns in den n&auml;chsten Tagen mit Ihnen in Verbindung."
         },
         "Galerie": [
             {

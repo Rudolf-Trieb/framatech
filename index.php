@@ -49,9 +49,52 @@
 				
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
 		<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
-		<script type="text/javascript" language="javascript" src="js/app.js"></script>
-
 		
+		
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+			
+				// INIZIALISIEREN
+				
+				$("#logo").load("logo.php"); 
+		
+				// CONTENT ÄNDERN
+				$("#impressum").click(function() {
+						$.post("impressum_<?php echo $_SESSION['Sprache']?>.html","",function(data){
+						  $("#content").html(data).fadeIn(4000);
+						});
+						
+						return false;
+				});
+
+				$(".datenschutz").click(function() {
+						$.post("datenschutz_<?php echo $_SESSION['Sprache']?>.html","",function(data){
+						  $("#content").html(data).fadeIn(4000);
+						});
+						
+						return false;
+				});
+				
+				$("#kontakt").click(function() {
+						$.post("kontakt.html","",function(data){
+						  $("#content").html(data).fadeIn(4000);
+						});
+						
+						return false;
+				});
+				
+				$("#galerie").click(function() {
+						$.post("galerie.php","",function(data){
+						  $("#content").html(data).fadeIn(4000);
+						});
+														
+						return false;
+				});	
+				
+				
+			});
+		</script>
 		
 	</head>
 
@@ -140,7 +183,14 @@
 				<!-- <a href="index.html"><img  src="./images/logo.svg" height="130" width="360" style="float:right; padding: 0;margin: 0"></a> -->
 			</div>
 				
-			<div id="content"> 				
+			<div id="content"> 
+				
+				<h1>Unsere Homepage ist wegen notwendiger Anpassungsarbeiten durch die neue Datenschutz-Grundverordnung DSGVO derzeit offline.</h1>
+				<div><h3>Insbesondere können Sie uns daher nicht über unser Kontaktformular erreichen.
+				Wir bitten Sie daher uns ggf. telefonisch bzw. per Email (<?php echo $lang->fooder->Email?>) zu kontaktieren.</h3> 
+				<h3>Die PDF Dokumente unseres Downloadbereiches, so wie unsere Fotogalerie stehen Ihnen weiterhin zur Verfügung.</h3>
+				</div>
+				
 				<div style="color: black;min-height:650px; margin: 0em;padding: 2em; background-size: 100% 100%; background-image:url('./images/background-start.jpg')">
 					<div id="logo"></div>
 				</div> 

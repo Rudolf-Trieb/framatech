@@ -1,7 +1,7 @@
 {
   "Metadaten": {
-    "keywords": "Lifter Systems, Craneways, Transport Conveyors",
-    "description": "We design, produce and assemble machines, handling units and crane systems for all kinds of transport tasks! Our team has more than 25 years of experience in custom engineering, challenge us!",
+    "keywords": "Liftsystem,Krananlagen,Transportstrecken",
+    "description": "Wir konstruieren, produzieren und montieren fr sie Maschinen, Handlingsger&auml;te und Krananlagen f&uuml;r die verschiedensten Transportaufgaben! Unser Team hat &uuml;ber 25 Jahre Erfahrung im Sondermaschinenbau, fordern Sie uns !",
     "content_language": "en",
     "language": "english"
   },
@@ -67,7 +67,7 @@
 		"Betreff":"subject",
 		"Nachricht":"message",
 		"Bitte_Rechenaufgabe":"Please solve the following simple math!",
-		"Hinweis_Datenschutz":"By submitting this form, I consent to the processing of my data for the purpose of processing my contact request and have noted the notice of my right to object to your <a href='../datenschutz_en.html' target='_blank' class='datenschutz'>privacy policy.</a>",
+		"Hinweis_Datenschutz":"By submitting this form, I consent to the processing of my data for the purpose of processing my contact request and have noted the notice of my right to object in your <a href='../datenschutz_en.html' target='_blank' class='datenschutz'>privacy policy.</a>",
 		"Vielen_Dank":"Many thanks for your message, we contact you soon!"
 	},
 	
@@ -140,7 +140,7 @@
 		"Prospekt_Link":"<a href='./downloads/prospekt_en.pdf'>Prospectus</a>",
 	
 	"Impressum_Link":"<a href='#!/impressum_en' id='impressum'>Imprint</a>",
-    "Datenschutz_Bestimmungen_Link": "<br><a href='#!/datenschutz' class='datenschutz'>Privacy Policy</a>"
+	"Datenschutz_Bestimmungen_Link": "<br><a href='#!/datenschutz' class='datenschutz'>Privacy Policy</a>"
 	
   }
   
