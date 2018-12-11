@@ -6,7 +6,8 @@
         "language": "Deutsch"
     },
     "Actions": {
-        "Senden": "Senden"
+        "Senden": "Senden",
+        "Akzeptieren":"Akzeptieren"
     },
     "Menus": {
         "Lifte": "   Liftsysteme   ",
@@ -39,6 +40,10 @@
         "Logo": {
             "Startseite": "Startseite",
             "Sprachen_Link": "<a href='./index.php?lang=en' ><img   src='./images/en.gif'>English</a><br><a href='./index.php?lang=fr' ><img   src='./images/fr.gif'>Français </a>\n"
+        },
+        "cookiehinweis":{
+            "cookiemessage_Text":"Diese Website verwendet Cookies. Durch die Nutzung dieser Webseite erkären Sie sich damit einverstanden, dass Cookies gesetzt werden.",
+            "cookiemessage_Link_Text":"Mehr erfahren"
         },
         "Kontaktformular": {
             "Kontaktieren": "Kontaktieren Sie uns",

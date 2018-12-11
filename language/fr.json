@@ -6,7 +6,8 @@
         "language": "Deutsch"
     },
     "Actions": {
-        "Senden": "Senden"
+        "Senden": "Senden",
+        "Akzeptieren":"accepter"
     },
     "Menus": {
         "Lifte": "Systèmes de Levage",
@@ -39,6 +40,10 @@
         "Logo": {
             "Startseite": "Page d'Accueil",
             "Sprachen_Link": "<a href='./index.php?lang=en' ><img   src='./images/en.gif'>English</a><br><a href='./index.php?lang=de' ><img   src='./images/de.gif'>Deutsch</a>\n"
+        },
+        "cookiehinweis":{
+            "cookiemessage_Text":"Ce site utilise des cookies. En utilisant ce site, vous acceptez l'utilisation de cookies.",
+            "cookiemessage_Link_Text":"En savoir plus"
         },
         "Kontaktformular": {
             "Kontaktieren": "Kontaktieren Sie uns",

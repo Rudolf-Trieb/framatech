@@ -100,6 +100,19 @@
 
 	<body>
 
+
+
+
+			<!--
+				<h1>Unsere Homepage ist wegen notwendiger Anpassungsarbeiten durch die neue Datenschutz-Grundverordnung DSGVO derzeit offline.</h1>
+				<div><h3>Insbesondere können Sie uns daher nicht über unser Kontaktformular erreichen.
+				Wir bitten Sie daher uns ggf. telefonisch bzw. per Email (<?php echo $lang->fooder->Email?>) zu kontaktieren.</h3> 
+				<h3>Die PDF Dokumente unseres Downloadbereiches, so wie unsere Fotogalerie stehen Ihnen weiterhin zur Verfügung.</h3>
+				</div>
+			-->
+
+
+
 		<div id="page-wrap">
 					  
 			<div id="menue" style="position:relative; z-index:30; ">
@@ -184,13 +197,7 @@
 			</div>
 				
 			<div id="content"> 
-				
-				<h1>Unsere Homepage ist wegen notwendiger Anpassungsarbeiten durch die neue Datenschutz-Grundverordnung DSGVO derzeit offline.</h1>
-				<div><h3>Insbesondere können Sie uns daher nicht über unser Kontaktformular erreichen.
-				Wir bitten Sie daher uns ggf. telefonisch bzw. per Email (<?php echo $lang->fooder->Email?>) zu kontaktieren.</h3> 
-				<h3>Die PDF Dokumente unseres Downloadbereiches, so wie unsere Fotogalerie stehen Ihnen weiterhin zur Verfügung.</h3>
-				</div>
-				
+			
 				<div style="color: black;min-height:650px; margin: 0em;padding: 2em; background-size: 100% 100%; background-image:url('./images/background-start.jpg')">
 					<div id="logo"></div>
 				</div> 
@@ -246,6 +253,27 @@
 			</div>
 
 		</div>
+
+		<!-- Cookie Banner Script Start -->
+		<style>
+		#cookies-accepted {position: fixed; z-index:100; top: 0; left: 0; right: 0; background: #eee; padding: 20px; font-size: 14px; font-family: verdana;}
+		#cookies-accepted a.button {cursor: pointer; background: #ccc; padding: 8px 20px; margin-left: 10px; border-radius: 5px; font-weight: bold; float: right;}
+		#cookies-accepted a.button:hover {background-color: #aaa;}
+		#cookies-accepted p.cookiemessage {display: block; padding: 0; margin: 0;}
+		</style>
+		<div id="cookies-accepted">
+			<a onClick="var d = new Date(); d = new Date(d.getTime() +1000*60*60*24*730); document.cookie = 'cookies-accepted=1; expires='+ d.toGMTString() + ';'; document.getElementById('cookies-accepted').style.display = 'none';" class="button"><?php echo $lang->Actions->Akzeptieren?></a>
+
+			<p class="cookiemessage">
+				<?php echo $lang->Content->cookiehinweis->cookiemessage_Text?>
+				<a href="datenschutz_<?php echo $_SESSION['Sprache']?>.html"><?php echo $lang->Content->cookiehinweis->cookiemessage_Link_Text?></a>
+			</p>
+		</div>
+
+		<script>
+		a = document.cookie;while(a != ''){while(a.substr(0,1) == ' '){a = a.substr(1,a.length);}cn = a.substring(0,a.indexOf('='));if(a.indexOf(';') != -1){cw = a.substring(a.indexOf('=')+1,a.indexOf(';'));}else{cw = a.substr(a.indexOf('=')+1,a.length);}if(cn == 'cookies-accepted'){r = cw;}i = a.indexOf(';')+1;if(i == 0){i = a.length}a = a.substring(i,a.length);}if(r == '1') document.getElementById('cookies-accepted').style.display = 'none';
+		</script>
+		<!-- Cookie Banner Script End -->
 
 	</body>
 

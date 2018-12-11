@@ -7,7 +7,8 @@
   },
 
   "Actions": {
-	"Senden": "send"
+	"Senden": "send",
+    "Akzeptieren":"Accept"
   },
   
   "Menus": {
@@ -52,6 +53,11 @@
 		"Startseite":"Home",
 		"Sprachen_Link": "<a href='./index.php?lang=de' ><img   src='./images/de.gif'>Deutsch</a><br><a href='./index.php?lang=fr' ><img   src='./images/fr.gif'>Français</a>\n"
 	},
+
+    "cookiehinweis":{
+        "cookiemessage_Text":"This site uses cookies. By using this website, you agree to the use of cookies.",
+        "cookiemessage_Link_Text":"Learn more"
+    },
 
 	"Kontaktformular": {
 	
